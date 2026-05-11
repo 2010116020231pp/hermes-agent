@@ -188,7 +188,7 @@ scripts/run_tests.sh
 
 
 ## 使用记录
-- 安装：powershell中执行 - PS C:\Users\duanpan> wsl --install
+- 安装：powershell中执行 - PS C:\Users\*> wsl --install
 - 打开ubuntu执行 - root@LAPTOP-BL059G96:~# curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
 - 查看是否安装成功 - root@LAPTOP-BL059G96:~# hermes --version
 - 设置模型：
