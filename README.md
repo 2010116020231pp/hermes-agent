@@ -186,6 +186,26 @@ scripts/run_tests.sh
 - 🐛 [Issues](https://github.com/NousResearch/hermes-agent/issues)
 - 🔌 [HermesClaw](https://github.com/AaronWong1999/hermesclaw) — Community WeChat bridge: Run Hermes Agent and OpenClaw on the same WeChat account.
 
+
+## 使用记录
+- 安装：powershell中执行 - PS C:\Users\duanpan> wsl --install
+- 打开ubuntu执行 - root@LAPTOP-BL059G96:~# curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
+- 查看是否安装成功 - root@LAPTOP-BL059G96:~# hermes --version
+- 设置模型：
+  - root@LAPTOP-BL059G96:~# hermes setup model + 选择 Alibaba Cloud / DashScope Coding (Qwen + multi-provider)
+  - 复制API Key
+- 启动和使用：
+  - root@LAPTOP-BL059G96:~# hermes
+```bash 
+Welcome to Hermes Agent! Type your message or /help for commands.
+✦ Tip: Three plugin types: general (tools/hooks), memory providers, and context engines.
+
+ ⚕ qwen3-235b-a22b │ ctx -- │ [░░░░░░░░░░] -- │51s │ ⏲ 0s
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ 介绍下自己
+```
+  - 
+
 ---
 
 ## License
